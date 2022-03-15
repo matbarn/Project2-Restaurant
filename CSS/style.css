@@ -1,0 +1,58 @@
+.main {
+    display: grid;
+    grid-gap: 20px;
+    background-color: #f2f2f2;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.tile {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 #e7e7e7c5;
+    padding-bottom: -20px;
+}
+
+.new {
+    position: relative;
+    left: 80%;
+    bottom: 80%;
+    color: #32685a;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #99E2D0;
+    border-radius: 6px;
+    width: 90px;
+}
+.fa-heart_black {
+    color: #000;
+    cursor: pointer;
+}
+
+.fa-heart_black:hover {
+    color: #FF79DA;
+}
+
+.large_font {
+    font-size: 26px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+img.restaurant {
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+}
