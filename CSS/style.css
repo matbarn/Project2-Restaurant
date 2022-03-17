@@ -2,6 +2,125 @@
     width:200px;
 }
 
+.discover_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    background-color: #f2f2f2;
+}
+
+.pin_container {
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 -2px 0px 0px #3d3a3a38;
+    background-color: #e2dfdf;
+}
+
+
+.filter_container{
+    display: flex;
+    height: 120px;
+    background-color: #ffffff;
+}
+
+.explore {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.align_container {
+    text-align: center;
+}
+
+.explore_button {
+    color: #ffffff;
+    text-align: center;
+    background-color: #FF79DA;
+    background: linear-gradient(0deg, #9356DC 0%, #FF79DA 100%);
+    width: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 30px;
+}
+
+.button_container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.choose_button {
+    width: 300px;
+    background-color: #f2f2f2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 #e7e7e7c5;
+    cursor: pointer;
+}
+
+.fa-1 {
+    color: #ffffff;
+    padding: 6px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 100px;
+    background-color: #9356DC;
+    margin: -16px;
+}
+
+.fa-2 {
+    color: #ffffff;
+    padding: 6px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 100px;
+    background-color: #9356DC;
+    margin: -16px;
+}
+
+.fa-3 {
+    color: #ffffff;
+    padding: 6px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 100px;
+    background-color: #9356DC;
+    margin: -16px;
+}
+
+.fa-mobile-screen-button {
+    padding-left: 30px;
+    padding-right: 15px;
+    color: #3d3a3a38;
+}
+
+.fa-ellipsis-vertical {
+    padding-left: 30px;
+    color: #3d3a3a38;
+}
+
+.fa-bars {
+    padding-right: 15px;
+    color: #3d3a3a38;
+}
+
+.fa-store {
+    padding-left: 30px;
+    padding-right: 15px;
+    color: #3d3a3a38;
+}
+
 .main {
     display: flex;
     flex-direction: column;
@@ -42,6 +161,7 @@
     border-radius: 6px;
     width: 50px;
 }
+
 .fa-heart_black {
     color: #000;
     cursor: pointer;
@@ -58,6 +178,7 @@
 .bold {
     font-weight: bold;
 }
+
 
 .content {
     display: flex;
@@ -81,13 +202,32 @@ img.restaurant {
 
 .footer_logo {
     width: 100px;
+    margin-left: 30px;
+    padding-bottom: 20px;
+   /* -webkit-filter: invert(100%);*/
 }
 
 .footer_container {
     display: flex;
     justify-content: space-around;
 }
+
 .footer_text {
     display: flex;
     color: #ffffff;
+}
+
+.fa-utensils {
+    color: #ffffff;
+    padding-right: 10px;
+}
+
+.fa-handshake-angle {
+    color: #ffffff;
+    padding-right: 10px;
+}
+
+.hyper_link {    
+    color: #ffffff;
+    text-decoration: none;
 }
