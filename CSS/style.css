@@ -39,6 +39,10 @@
     cursor: pointer;
 }
 
+.book_content {
+    padding-top: 20px;
+}
+
 .align_container {
     text-align: center;
 }
