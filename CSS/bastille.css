@@ -43,9 +43,19 @@
 }
 
 .entrees_title {    
-    border-bottom: solid 3px;
-    width: 40px;
-    border-color: #99E2D0;
+  display: inline-block;
+  border-bottom: 3px solid #f2f2f2;  
+  position: relative;
+  width: 85px;
+}
+
+/*to allow text to be on one line*/
+.entrees_title::before {
+    border-bottom: 3px solid #99E2D0;
+    position: absolute;
+    content: '';
+    bottom: -3px;
+    width: 50%;
 }
 
 .button_container_entree {
