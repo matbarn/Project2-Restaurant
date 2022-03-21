@@ -74,14 +74,20 @@
     padding-left: 18px;
     padding-right: 18px;
     background-color: #ffffff;
-    width: 270px;
-    height: 70px;
+    width: 344px;
+    height: 80px;
     border-radius: 30px;
     box-shadow: 4px 6px 7px 0 #e7e7e7c5;
     cursor: pointer;
 }
 
+.button_dish {
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .discript_cost {
+    font-size: 14px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
