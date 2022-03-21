@@ -1,0 +1,55 @@
+@media screen and (min-width: 1600px) {
+
+.main {
+    background-color: #f2f2f2;
+}
+
+.top {
+    display: flex;
+    background-color: #f2f2f2;
+}
+
+.title_card {
+    background-color: #f2f2f2;
+}
+
+.footer {
+    background-color: #252424;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer_logo {
+    font-family: 'Shrikhand', cursive;
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 30px;
+    padding-bottom: 20px;
+   /* -webkit-filter: invert(100%);*/
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_text {
+    display: flex;
+    color: #ffffff;
+}
+
+.fa-utensils {
+    color: #ffffff;
+    padding-right: 10px;
+}
+
+.fa-handshake-angle {
+    color: #ffffff;
+    padding-right: 10px;
+}
+
+.hyper_link {    
+    color: #ffffff;
+    text-decoration: none;
+}
+}
