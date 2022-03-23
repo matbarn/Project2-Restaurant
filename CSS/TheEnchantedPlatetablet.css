@@ -5,11 +5,18 @@
         margin-left: 0px;
         margin-right: 0px;
     }
+
+.title {
+    padding-left: 10px;
+}
+
     .main {
         background-color: #f2f2f2;
     }
     
     .img_header {
+        object-fit: cover;
+        height: 450px;
         width: 100%;
     }
     
@@ -50,6 +57,7 @@
       border-bottom: 3px solid #f2f2f2;  
       position: relative;
       width: 85px;
+      padding-left: 10px;
     }
     
     /*to allow text to be on one line*/
@@ -83,7 +91,7 @@
         padding-right: 18px;
         background-color: #ffffff;
         width: auto;
-        max-width: 1225px;
+        max-width: 100%;
         height: 80px;
         border-radius: 30px;
         box-shadow: 4px 6px 7px 0 #e7e7e7c5;

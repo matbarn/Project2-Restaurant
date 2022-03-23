@@ -3,27 +3,36 @@
     * {
         font-family: 'Raleway', sans-serif;
     }
+
+.title {
+    padding-left: 40px;
+}
+
     .main {
         background-color: #f2f2f2;
     }
     
     .img_header {
+        object-fit: cover;
+        height: 600px;
         width: 100%;
     }
     
     .fa-heart {
+        padding-right: 40px;
         cursor: pointer;
     }
     
     .top {
         margin-top: -150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         position: relative;
         height: 165px;
         padding-top: 40px;
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
-        display: flex;
-        gap: 80%;
         background-color: #f2f2f2;
     }
     
@@ -47,6 +56,7 @@
       border-bottom: 3px solid #f2f2f2;  
       position: relative;
       width: 85px;
+      padding-left: 10px;
     }
     
     /*to allow text to be on one line*/
@@ -131,7 +141,7 @@
         font-family: 'Shrikhand', cursive;
         font-size: 20px;
         color: #ffffff;
-        margin-left: 30px;
+        margin-left: 70px;
         padding-bottom: 20px;
     }
     
