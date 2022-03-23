@@ -14,6 +14,7 @@
     }
     
     .fa-heart {
+        padding-right: 10px;
         cursor: pointer;
     }
     
@@ -25,7 +26,8 @@
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
         display: flex;
-        gap: 45%;
+        flex-direction: row;
+        justify-content: space-between;
         background-color: #f2f2f2;
     }
     
@@ -36,7 +38,7 @@
     }
     
     .title_card {
-        padding-left: 40px;
+        padding-left: 10px;
         font-family: 'Shrikhand', cursive;
         font-weight: bold;
         font-size: 30px;
