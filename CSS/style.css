@@ -189,29 +189,11 @@
 .menu_link {
     cursor: pointer;
 }
-
-.fa-heart_black {
-    color: #000;
-    cursor: pointer;
-}
-
-.fa-heart_black:hover {
-    display: none;
-}
-
-.fa-heart_pink {
-    display: none;
-}
-
-.fa-heart_pink  {
-    cursor: pointer;
-    display: none;
-}
-
-.fa-heart_pink:hover {
-    display: none;
+.fa-solid:hover {
     color: #FF79DA;
+    cursor: pointer;
 }
+
 
 
 .large_font {
