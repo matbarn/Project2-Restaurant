@@ -3,6 +3,7 @@
     font-family: 'Roboto', sans-serif;
 }
 .logo {
+    padding-left: 30px;
     width:200px;
 }
 
@@ -26,6 +27,9 @@
 
 .filter_container{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
     height: 120px;
     background-color: #ffffff;
 }
@@ -166,6 +170,7 @@
     background-color: #ffffff;
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 #e7e7e7c5;
+    cursor: pointer;
 }
 
 .new {
@@ -187,10 +192,20 @@
 }
 
 .fa-heart_black:hover {
-    color: #FF79DA;
+    display: none;
+}
+.fa-heart_pink {
+    cursor: pointer;
+}
+.fa-heart_pink  {   
+    display: none;
+}
+.fa-heart_pink:hover {
+    display: inline;
 }
 
 .large_font {
+    padding-left: 30px;
     font-size: 26px;
 }
 
@@ -227,7 +242,6 @@ img.restaurant {
     font-family: 'Shrikhand', cursive;
     font-size: 20px;
     color: #ffffff;
-    margin-left: 30px;
     padding-bottom: 20px;
    /* -webkit-filter: invert(100%);*/
 }
@@ -239,6 +253,8 @@ img.restaurant {
 
 .footer_text {
     display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     color: #ffffff;
 }
 

@@ -5,6 +5,7 @@
     margin-right: 0px;
 }
 .logo {
+    padding-left: 20px;
     width:200px;
 }
 
@@ -195,11 +196,12 @@
 }
 
 .large_font {
+    padding-left: 10px;
     font-size: 26px;
 }
 
 .padding_left {
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .bold {
@@ -231,7 +233,7 @@ img.restaurant {
     font-family: 'Shrikhand', cursive;
     font-size: 20px;
     color: #ffffff;
-    margin-left: 30px;
+
     padding-bottom: 20px;
    /* -webkit-filter: invert(100%);*/
 }
@@ -243,6 +245,8 @@ img.restaurant {
 
 .footer_text {
     display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     color: #ffffff;
 }
 
