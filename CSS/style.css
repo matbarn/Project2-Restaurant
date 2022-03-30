@@ -1,6 +1,7 @@
 @media screen and (min-width: 1600px) {
 * {
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
 }
 .logo {
     padding-left: 30px;
@@ -169,8 +170,7 @@
     flex: 1;
     background-color: #ffffff;
     border-radius: 15px;
-    box-shadow: 0 4px 8px 0 #e7e7e7c5;
-    cursor: pointer;
+    box-shadow: 0 4px 8px 0 #e7e7e7c5;    
 }
 
 .new {
@@ -186,6 +186,10 @@
     width: 50px;
 }
 
+.menu_link {
+    cursor: pointer;
+}
+
 .fa-heart_black {
     color: #000;
     cursor: pointer;
@@ -194,15 +198,21 @@
 .fa-heart_black:hover {
     display: none;
 }
+
 .fa-heart_pink {
-    cursor: pointer;
-}
-.fa-heart_pink  {   
     display: none;
 }
-.fa-heart_pink:hover {
-    display: inline;
+
+.fa-heart_pink  {
+    cursor: pointer;
+    display: none;
 }
+
+.fa-heart_pink:hover {
+    display: none;
+    color: #FF79DA;
+}
+
 
 .large_font {
     padding-left: 30px;
