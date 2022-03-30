@@ -189,12 +189,12 @@
 .menu_link {
     cursor: pointer;
 }
+
 .fa-solid:hover {
-    color: #FF79DA;
     cursor: pointer;
+    color: #FF79DA;
+
 }
-
-
 
 .large_font {
     padding-left: 30px;
