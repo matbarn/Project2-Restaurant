@@ -167,6 +167,8 @@
 }
 
 .tile {
+    position: relative;
+    cursor: pointer;
     flex: 1;
     background-color: #ffffff;
     border-radius: 15px;
@@ -174,10 +176,9 @@
 }
 
 .new1 {
-    position: relative;
-    float: left;
-    left: 85%;
-    bottom: 75%;
+    position: absolute;
+    left: 80%;
+    bottom: 80%;
     color: #306355;
     font-size: 24px;
     font-weight: bold;
@@ -188,10 +189,9 @@
 }
 
 .new2 {
-    position: relative;
-    float: left;
-    left: 85%;
-    bottom: 75%;
+    position: absolute;
+    left: 80%;
+    bottom: 80%;
     color: #306355;
     font-size: 24px;
     font-weight: bold;
@@ -235,9 +235,6 @@
     color: #FFFFFF;
 }
 
-.fa-solid-pink:hover {
-    color: #FF79DA;
-}
 
 .large_font {
     padding-left: 30px;
