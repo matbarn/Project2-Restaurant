@@ -190,11 +190,24 @@
     cursor: pointer;
 }
 
-.fa-solid:hover {
-    cursor: pointer;
-    color: #FF79DA;
-
+/*.fa-solid {
+    visibility: hidden;
 }
+
+.fa-solid:hover {
+    visibility: visible;
+}
+
+.fa-regular {
+    visibility: visible;
+}
+
+.fa-regular:hover {
+    visibility: hidden;
+}*/
+
+
+
 
 .large_font {
     padding-left: 30px;

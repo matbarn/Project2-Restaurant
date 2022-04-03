@@ -4,7 +4,12 @@
         font-family: 'Raleway', sans-serif;
     }
 
+.fa-arrow-left {
+    font-size: 75px;
+}
+
 .title {
+    color: #000;
     padding-left: 40px;
 }
 
