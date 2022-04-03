@@ -205,24 +205,39 @@
     cursor: pointer;
 }
 
-/*.fa-solid {
-    visibility: hidden;
+.fa-stack-1 {
+    position: absolute;
+    z-index: 1;
 }
 
-.fa-solid:hover {
-    visibility: visible;
+.fa-stack-2 {
+    z-index: 2;
+    cursor: pointer;
+
 }
 
-.fa-regular {
-    visibility: visible;
+.fa-regular-black {
+    color: #000;
 }
 
-.fa-regular:hover {
-    visibility: hidden;
+.fa-regular-black:hover {
+    color: #FF79DA;
+}
+
+/*.Pink:hover {
+    cursor: pointer;
+    color: #FF79DA;
 }*/
 
 
+.fa-solid-pink {
+    cursor: pointer;
+    color: #FFFFFF;
+}
 
+.fa-solid-pink:hover {
+    color: #FF79DA;
+}
 
 .large_font {
     padding-left: 30px;
