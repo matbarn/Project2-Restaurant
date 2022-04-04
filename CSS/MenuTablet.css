@@ -36,6 +36,30 @@ padding-left: 20px;
     cursor: pointer;
 }
 
+.fa-stack-1 {
+    color: #000;
+    position: absolute;
+}
+
+.fa-stack-1:hover {
+    font-size: 0px;
+    color: #FF79DA;
+}
+
+.fa-stack-2 {
+    cursor: pointer;
+}
+
+.fa-stack-2:hover {
+    position: relative;
+    color: #FF79DA;
+}
+
+.fa-solid-pink {
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
 .top {
     margin-top: -150px;
     position: relative;

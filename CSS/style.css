@@ -206,29 +206,23 @@
 }
 
 .fa-stack-1 {
+    color: #000;
     position: absolute;
-    z-index: 1;
+}
+
+.fa-stack-1:hover {
+    font-size: 0px;
+    color: #FF79DA;
 }
 
 .fa-stack-2 {
-    z-index: 2;
     cursor: pointer;
-
 }
 
-.fa-regular-black {
-    color: #000;
-}
-
-.fa-regular-black:hover {
+.fa-stack-2:hover {
+    position: relative;
     color: #FF79DA;
 }
-
-/*.Pink:hover {
-    cursor: pointer;
-    color: #FF79DA;
-}*/
-
 
 .fa-solid-pink {
     cursor: pointer;
