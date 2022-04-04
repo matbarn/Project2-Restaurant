@@ -11,6 +11,7 @@
 }
 
 .fa-arrow-left {
+    color: #000 !important;
     margin-right: -50px;
     padding-left: 20px;
     font-size: 25px;

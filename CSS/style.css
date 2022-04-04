@@ -167,6 +167,7 @@
 }
 
 .tile {
+    color: #000 !important;
     position: relative;
     cursor: pointer;
     flex: 1;

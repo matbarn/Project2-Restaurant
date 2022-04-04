@@ -168,6 +168,7 @@
 }
 
 .tile {
+    color: #000 !important;
     position: relative;
     flex: 1;
     background-color: #ffffff;
