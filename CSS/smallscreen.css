@@ -188,23 +188,10 @@
     box-shadow: 0 4px 8px 0 #e7e7e7c5;
 }
 
-.new1 {
+.new {
     position: absolute;
     left: 73%;
     bottom: 80%;
-    color: #306355;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    background-color: #99E2D0;
-    border-radius: 6px;
-    width: 50px;
-}
-
-.new2 {
-    position: absolute;
-    left: 73%;
-    bottom: 75%;
     color: #306355;
     font-size: 24px;
     font-weight: bold;
