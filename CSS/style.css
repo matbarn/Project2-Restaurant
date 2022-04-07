@@ -25,6 +25,9 @@
     background-color: #e2dfdf;
 }
 
+.fa-location-dot {
+    padding-right: 10px;
+}
 
 .filter_container{
     display: flex;
@@ -64,6 +67,11 @@
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 30px;
+    box-shadow: 0 4px 8px 4px #e7e7e7c5;
+}
+
+.explore_button:hover {
+    box-shadow: 0 4px 8px 0 #ceccccec;
 }
 
 .button_container {
@@ -80,6 +88,10 @@
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 #e7e7e7c5;
     cursor: pointer;
+}
+
+.choose_button:hover {
+    box-shadow: 0 4px 8px 2px #e7e7e7d7;
 }
 
 .fa-1 {
@@ -147,6 +159,7 @@
 
 .section_1 {
     display: flex;
+    flex-direction: column;
     align-self: center;
     gap: 30px;
     padding-bottom: 40px;
@@ -154,32 +167,35 @@
 
 .tile_container_one {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     gap: 30px;
 }
 
 .tile_container_two {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     gap: 30px;
 }
 
 .tile {
     color: #000 !important;
     position: relative;
-    cursor: pointer;
     flex: 1;
     background-color: #ffffff;
     border-radius: 15px;
-    box-shadow: 0 4px 8px 0 #e7e7e7c5;    
+    box-shadow: 0 4px 8px 4px #e7e7e7c5;    
+}
+
+.tile:hover {
+    box-shadow: 0 4px 8px 0 #ceccccec;    
 }
 
 .new {
     position: absolute;
-    left: 80%;
-    bottom: 80%;
+    right: 8%;
+    top: 8%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     color: #306355;
     font-size: 24px;
     font-weight: bold;
@@ -189,8 +205,9 @@
     width: 50px;
 }
 
-.menu_link {
-    cursor: pointer;
+.hyper_link_black {
+    text-decoration: none;
+    color: #000;
 }
 
 .fa-stack-1 {
@@ -200,7 +217,7 @@
 
 .fa-stack-1:hover {
     font-size: 0px;
-    color: #FF79DA;
+    color: #FF79DA00;
 }
 
 .fa-stack-2 {
@@ -257,7 +274,6 @@ img.restaurant {
     font-size: 20px;
     color: #ffffff;
     padding-bottom: 20px;
-   /* -webkit-filter: invert(100%);*/
 }
 
 .footer_container {

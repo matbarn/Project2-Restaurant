@@ -190,8 +190,8 @@
 
 .new {
     position: absolute;
-    left: 73%;
-    bottom: 80%;
+    right: 10%;
+    top: 8%;
     color: #306355;
     font-size: 24px;
     font-weight: bold;
@@ -206,9 +206,9 @@
     position: absolute;
 }
 
-.fa-stack-1:hover {
+.fa-stack-1:active {
     font-size: 0px;
-    color: #FF79DA;
+    color: #FF79DA00;
 }
 
 .fa-stack-2 {

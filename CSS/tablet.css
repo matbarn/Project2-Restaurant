@@ -148,6 +148,7 @@
 
 .section_1 {
     display: flex;
+    flex-direction: column;
     align-self: center;
     gap: 30px;
     padding-bottom: 40px;
@@ -155,15 +156,11 @@
 
 .tile_container_one {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     gap: 30px;
 }
 
 .tile_container_two {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     gap: 30px;
 }
 
@@ -176,10 +173,18 @@
     box-shadow: 0 4px 8px 0 #e7e7e7c5;
 }
 
+.tile:hover {
+    box-shadow: 0 4px 8px 0 #ceccccec;    
+}
+
 .new {
     position: absolute;
-    left: 73%;
-    bottom: 80%;
+    right: 10%;
+    top: 8%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     color: #306355;
     font-size: 24px;
     font-weight: bold;
@@ -189,6 +194,11 @@
     width: 50px;
 }
 
+.hyper_link_black {
+    text-decoration: none;
+    color: #000;
+}
+
 .fa-stack-1 {
     color: #000;
     position: absolute;
@@ -196,7 +206,7 @@
 
 .fa-stack-1:hover {
     font-size: 0px;
-    color: #FF79DA;
+    color: #FF79DA00;
 }
 
 .fa-stack-2 {
