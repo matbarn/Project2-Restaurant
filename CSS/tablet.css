@@ -27,6 +27,9 @@
     background-color: #e2dfdf;
 }
 
+.fa-location-dot {
+    padding-right: 10px;
+}
 
 .filter_container{
     display: flex;
@@ -64,6 +67,15 @@
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 30px;
+    box-shadow: 0 4px 8px 4px #e7e7e7c5;
+}
+
+.explore_button:hover {
+    box-shadow: 0 4px 8px 0 #a8a8a8c5;
+}
+
+.explore_button:active {
+    box-shadow: 0 4px 8px 0 #a8a8a8c5;
 }
 
 .button_container {
@@ -81,6 +93,15 @@
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 #e7e7e7c5;
     cursor: pointer;
+}
+
+.choose_button:hover {
+    box-shadow: 0 4px 8px 2px #c5c4c4c5;
+}
+
+
+.choose_button:active {
+    box-shadow: 0 4px 8px 2px #c5c4c4c5;
 }
 
 .fa-1 {
@@ -176,6 +197,11 @@
 .tile:hover {
     box-shadow: 0 4px 8px 0 #ceccccec;    
 }
+
+.tile:active {
+    box-shadow: 0 4px 8px 0 #ceccccec;    
+}
+
 
 .new {
     position: absolute;

@@ -71,7 +71,7 @@
 }
 
 .explore_button:hover {
-    box-shadow: 0 4px 8px 0 #ceccccec;
+    box-shadow: 0 4px 8px 0 #a8a8a8c5;
 }
 
 .button_container {
@@ -91,7 +91,7 @@
 }
 
 .choose_button:hover {
-    box-shadow: 0 4px 8px 2px #e7e7e7d7;
+    box-shadow: 0 4px 8px 2px #c5c4c4c5;
 }
 
 .fa-1 {
@@ -185,7 +185,7 @@
 }
 
 .tile:hover {
-    box-shadow: 0 4px 8px 0 #ceccccec;    
+    box-shadow: 0 6px 8px 0 #ceccccec;    
 }
 
 .new {
