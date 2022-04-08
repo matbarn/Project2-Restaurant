@@ -13,11 +13,12 @@
 
 .fa-arrow-left {
     color: #000 !important;
-    width: 50px;
+    width: 40px;
     font-size: 20px;
 }
 
 .title {
+    padding-bottom: 5px;
     width: 250px;
     color: #000;
 }
