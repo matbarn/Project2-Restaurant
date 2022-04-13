@@ -166,12 +166,12 @@
 /*Animations*/
 .entrees_button:hover .fa-circle-check {
     position: relative;
-    animation: check 300ms, ease-in-out, paused;
+    animation: check 250ms, ease-in-out, paused;
     animation-fill-mode: forwards;
 }
 
 .entrees_button:hover {
-    animation: fade 300ms ease-in-out, backwards, paused;
+    animation: fade 250ms ease-in-out, backwards, paused;
     animation-fill-mode: forwards;
 }
 
