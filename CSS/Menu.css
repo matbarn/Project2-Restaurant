@@ -142,8 +142,13 @@
     background: linear-gradient(90deg, #FFFFFF 78%, #99e2d0 78%);
 }
 
+.fa-circle-check {
+    color: #00000000;
+}
+
 .discription {
     display: flex;
+    flex: 2;
     flex-direction: column;
     gap: 15px;
 }    
@@ -157,6 +162,37 @@
 .order {
     position: relative;
 }
+
+/*Animations*/
+.entrees_button:hover .fa-circle-check {
+    position: relative;
+    animation: check 300ms, ease-in-out, paused;
+    animation-fill-mode: forwards;
+}
+
+.entrees_button:hover {
+    animation: fade 300ms ease-in-out, backwards, paused;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade {
+    0% {background: linear-gradient(90deg, #FFFFFF 96%, #99E2D0 96%); }
+    20% {background: linear-gradient(90deg, #FFFFFF 93%, #99E2D0 93%); }
+    40% {background: linear-gradient(90deg, #FFFFFF 91%, #99E2D0 91%); }
+    60% {background: linear-gradient(90deg, #FFFFFF 89%, #99E2D0 89%); }
+    80% {background: linear-gradient(90deg, #FFFFFF 87%, #99E2D0 87%); }
+    90% {background: linear-gradient(90deg, #FFFFFF 86%, #99E2D0 85%); }
+    100% {background: linear-gradient(90deg, #FFFFFF 85%, #99E2D0 85%); }
+}
+
+@keyframes check {
+    0% {left: 120px; top: 0px; padding-left: 0px, color #ffffff00}
+    25%{color: #ffffff00;}
+    50% {padding-left: 5px;}
+    100% {left: 0px; top: 0px; padding-left: 30px; color: #FFFFFF;}  
+}
+
+
 
 /*.fa-circle-check:hover {
 padding-top: 32px;

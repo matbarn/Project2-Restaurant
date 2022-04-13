@@ -215,7 +215,8 @@
     cursor: pointer;
 }
 
-.fa-stack-2:hover {
+
+.fa-stack-2:active {
     position: relative;
     color: #FF79DA;
 }
