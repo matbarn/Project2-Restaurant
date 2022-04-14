@@ -210,28 +210,40 @@
     color: #000;
 }
 
-.fa-stack-1 {
-    color: #000;
-    position: absolute;
+.like {
+    background-color: #ffffff;
+    cursor: pointer;
 }
 
-.fa-stack-1:hover {
-    font-size: 0px;
-    color: #FF79DA00;
+.fa-stack-1 {
+    color: #000000;
+    position: absolute;
+    
 }
+
+.like:hover .fa-stack-1 {
+    animation: heart2 ease-in-out 1ms;
+    animation-fill-mode: forwards;
+}
+
 
 .fa-stack-2 {
-    cursor: pointer;
+    color: #00000000;
 }
 
-.fa-stack-2:hover {
-    position: relative;
-    color: #FF79DA;
+.like:hover .fa-stack-2 {
+    animation: heart ease-in-out 1ms;
+    animation-fill-mode: forwards;
 }
 
-.fa-solid-pink {
-    cursor: pointer;
-    color: #FFFFFF;
+@keyframes heart {
+    0%{left: 120px; top: 0px; color: #ff79d900;}
+    100%{left: 0px; top: 0px;color: #FF79DA;}
+}
+
+@keyframes heart2 {
+    0%{left: 120px; top: 0px; color: #000;}
+    100%{left: 0px; top: 0px;color: #00000000;}
 }
 
 
