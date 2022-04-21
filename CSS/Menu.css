@@ -157,6 +157,7 @@
 
 .fa-circle-check {
     color: #00000000;
+    -webkit-transition: -webkit-transform 0.6s;
 }
 
 .discription {
@@ -179,12 +180,14 @@
 /*Animations*/
 .entrees_button:hover .fa-circle-check {
     position: relative;
-    animation: check 250ms, ease-in-out, paused;
+    animation: check 300ms, ease-in-out, paused;
     animation-fill-mode: forwards;
+    -webkit-transform: rotate(360deg);
+
 }
 
 .entrees_button:hover {
-    animation: fade 250ms ease-in-out, backwards, paused;
+    animation: fade 250ms ease-in-out, paused;
     animation-fill-mode: forwards;
 }
 
@@ -195,46 +198,15 @@
     60% {background: linear-gradient(90deg, #FFFFFF 89%, #99E2D0 89%); }
     80% {background: linear-gradient(90deg, #FFFFFF 86%, #99E2D0 86%); }
     90% {background: linear-gradient(90deg, #FFFFFF 84%, #99E2D0 84%); }
-    100% {background: linear-gradient(90deg, #FFFFFF 80%, #99E2D0 80%); }
+    100% {background: linear-gradient(90deg, #FFFFFF 79%, #99E2D0 79%); }
 }
 
 @keyframes check {
-    0% {left: 120px; top: 0px; padding-left: 0px, color #ffffff00}
+    0% {left: 120px; top: 2px; padding-left: 0px, color #ffffff00}
     25%{color: #ffffff00;}
     50% {padding-left: 5px;}
-    100% {left: -15px; top: 0px; color: #FFFFFF;}  
+    100% {left: -15px; top: 2px; color: #FFFFFF;}  
 }
-
-
-
-
-/*.fa-circle-check:hover {
-padding-top: 32px;
-padding-bottom: 32px;
-padding-left: 10px;
-padding-right: 17px;
-background-color: #99E2D0;
-color: #FFFFFF;
-border-top-right-radius: 30px;
-border-bottom-right-radius: 30px;
-margin-right: -18px;
-top: -40;
-right: 17px;
-}*/
-
-/*.fa-circle-check { 
-position: absolute;       
-padding-top: 32px;
-padding-bottom: 32px;
-padding-left: 10px;
-padding-right: 17px;
-color: #FF79DA;
-border-top-right-radius: 30px;
-border-bottom-right-radius: 30px;
-margin-right: -18px;
-top: -40px;
-right: 17px;
-}*/
 
 .button_dish {
     font-size: 18px;
