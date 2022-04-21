@@ -53,7 +53,7 @@
     
 }
 
-.like:active .fa-stack-1 {
+.like:hover .fa-stack-1 {
     animation: heart2 ease-in-out 1ms;
     animation-fill-mode: forwards;
 }
@@ -63,7 +63,7 @@
     color: #00000000;
 }
 
-.like:active .fa-stack-2 {
+.like:hover .fa-stack-2 {
     animation: heart ease-in-out 1ms;
     animation-fill-mode: forwards;
 }
@@ -151,12 +151,12 @@
     cursor: pointer;
 }
 
-.entrees_button:active {
+.entrees_button:hover {
     background: rgb(255,255,255);   
     box-shadow: 0 6px 8px 0 #ceccccec;
 }
 
-.entrees_button:active {
+.entrees_button:hover {
     box-shadow: 0 6px 8px 0 #ceccccec;
     background: linear-gradient(90deg, #FFFFFF 78%, #99e2d0 78%);
 
@@ -195,7 +195,7 @@
     font-weight: bold;
 }
 
-.entrees_button:active .cost {
+.entrees_button:hover .cost {
     animation: cost 250ms, ease-in-out, paused;
     animation-fill-mode: forwards;
     }
@@ -224,7 +224,7 @@
     cursor: pointer;
 }
 
-.entrees_button:active .fa-circle-check {
+.entrees_button:hover .fa-circle-check {
     position: relative;
     animation: check 300ms, ease-in-out, paused;
     animation-fill-mode: forwards;
@@ -232,7 +232,7 @@
 
 }
 
-.entrees_button:active {
+.entrees_button:hover {
     animation: fade 250ms ease-in-out, paused;
     animation-fill-mode: forwards;
 }
@@ -262,7 +262,7 @@
     100% {padding-right: 140px;}
 }
 
-.order_button:active {
+.order_button:hover {
     box-shadow: 0 4px 8px 0 #a8a8a8c5;
 
 }
