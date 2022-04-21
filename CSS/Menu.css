@@ -68,6 +68,7 @@
 
 .like {
     background-color: #f2f2f2;
+    height: 32px;
     cursor: pointer;
 }
 

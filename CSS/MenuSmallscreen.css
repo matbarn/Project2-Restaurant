@@ -56,18 +56,13 @@ img.title {
         font-size: 0px;
         color: #FF79DA;
     }
-    
-    .fa-stack-2 {
-        cursor: pointer;
-    }
-    
+        
     .fa-stack-2:hover {
         position: relative;
         color: #FF79DA;
     }
     
     .fa-solid-pink {
-        cursor: pointer;
         color: #FFFFFF;
     }
     
@@ -100,6 +95,10 @@ img.title {
         background-color: #f2f2f2;
     }
     
+.like {
+    height: 32px;
+}
+
     .entrees_title {    
       display: inline-block;
       border-bottom: 3px solid #f2f2f2;  
@@ -148,7 +147,6 @@ img.title {
         height: 80px;
         border-radius: 15px;
         box-shadow: 4px 6px 7px 0 #e7e7e7c5;
-        cursor: pointer;
     }
     
     .button_dish {
@@ -187,7 +185,6 @@ img.title {
         padding-top: 15px;
         padding-bottom: 15px;
         border-radius: 30px;
-        cursor: pointer;
     }
 
     .order_button:active {
