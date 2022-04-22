@@ -246,6 +246,7 @@ animation-fill-mode: forwards;
     100% {padding-right: 50px;}
 }
 
+
 .order_button_container {
     display: flex;
     align-items: center;
