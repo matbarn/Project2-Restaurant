@@ -209,8 +209,17 @@
 }
 
 .button_dish {
+    width:fit-content;
     font-size: 18px;
     font-weight: bold;
+}
+
+.entrees_button:hover .button_dish {
+    text-overflow: ellipsis;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 280px;
 }
 
 .discript_cost {
