@@ -51,12 +51,12 @@ img.title {
     position: absolute;
 }
 
-.fa-stack-1:hover {
+.fa-stack-1:active {
     font-size: 0px;
     color: #FF79DA;
 }
     
-.fa-stack-2:hover {
+.fa-stack-2:active {
     position: relative;
     color: #FF79DA;
 }
@@ -116,7 +116,7 @@ height: 32px;
     align-items: center;
 }
 
-.entrees_button:hover .fa-circle-check {
+.entrees_button:active .fa-circle-check {
     position: relative;
     animation: check 1.5ms, ease,2s;
     animation-fill-mode: forwards;
@@ -124,7 +124,7 @@ height: 32px;
 
 }
 
-.entrees_button:hover {
+.entrees_button:active {
     animation: fade 1.5s ease, 2s;
     animation-fill-mode: forwards;
 }
@@ -209,6 +209,8 @@ height: 32px;
     font-weight: bold;
 }
 
+
+
 .discript_cost {
     font-size: 14px;
     display: flex;
@@ -216,15 +218,16 @@ height: 32px;
     justify-content: space-between;
 }
 
-.entrees_button:hover .cost {
+.entrees_button:active .cost {
     animation: cost 2s, ease-in-out, 2s;
-    animation-fill-mode: forwards;
+
+    animation-timing-function: ease-in-out;
     }
     
 @keyframes cost {
     0% {padding-right: 0; top: 0px; padding-left: 0px, color #ffffff00}
-    25% {padding-right: 50px;}
-    75% {padding-right: 50px;}
+    25% {padding-right: 70px;}
+    75% {padding-right: 70px;}
     100% {padding-right: 0px;}
 }
     
@@ -233,6 +236,15 @@ height: 32px;
 .cost {
     font-weight: bold;
 }
+
+.entrees_button:hover .side {
+    text-overflow: ellipsis;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 120px;
+}
+
 
 .order_button_container {
     display: flex;
