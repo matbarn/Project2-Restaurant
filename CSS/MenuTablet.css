@@ -195,10 +195,6 @@
     font-weight: bold;
 }
 
-.entrees_button:hover .cost {
-    animation: cost 250ms, ease-in-out, paused;
-    animation-fill-mode: forwards;
-    }
 
 .order_button_container {
     display: flex;
@@ -226,25 +222,38 @@
 
 .entrees_button:hover .fa-circle-check {
     position: relative;
-    animation: check 300ms, ease-in-out, paused;
+    animation: check 1.5ms, ease,2s;
     animation-fill-mode: forwards;
     transform: rotate(360deg);
 
 }
 
 .entrees_button:hover {
-    animation: fade 250ms ease-in-out, paused;
+    animation: fade 1.5s ease, 2s;
     animation-fill-mode: forwards;
 }
 
 @keyframes fade {
-    0% {background: linear-gradient(90deg, #FFFFFF 96%, #99E2D0 96%); }
-    20% {background: linear-gradient(90deg, #FFFFFF 93%, #99E2D0 93%); }
-    40% {background: linear-gradient(90deg, #FFFFFF 91%, #99E2D0 91%); }
-    60% {background: linear-gradient(90deg, #FFFFFF 89%, #99E2D0 89%); }
-    80% {background: linear-gradient(90deg, #FFFFFF 86%, #99E2D0 86%); }
-    90% {background: linear-gradient(90deg, #FFFFFF 84%, #99E2D0 84%); }
-    100% {background: linear-gradient(90deg, #FFFFFF 79%, #99E2D0 79%); }
+    0% {background: linear-gradient(90deg, #FFFFFF 100%, #99E2D0 100%); }
+    5% {background: linear-gradient(90deg, #FFFFFF 96%, #99E2D0 96%); }
+    10% {background: linear-gradient(90deg, #FFFFFF 90%, #99E2D0 90%); }
+    15% {background: linear-gradient(90deg, #FFFFFF 85%, #99E2D0 85%); }
+    20% {background: linear-gradient(90deg, #FFFFFF 83%, #99E2D0 83%); }
+    25% {background: linear-gradient(90deg, #FFFFFF 80%, #99E2D0 80%); }
+    30% {background: linear-gradient(90deg, #FFFFFF 80%, #99E2D0 80%); }
+    35% {background: linear-gradient(90deg, #FFFFFF 80%, #99E2D0 80%); }
+    40% {background: linear-gradient(90deg, #FFFFFF 80%, #99E2D0 80%); }
+    45% {background: linear-gradient(90deg, #FFFFFF 80%, #99E2D0 80%); }
+    50% {background: linear-gradient(90deg, #FFFFFF 80%, #99E2D0 80%); }
+    55% {background: linear-gradient(90deg, #FFFFFF 80%, #99E2D0 80%); }
+    60% {background: linear-gradient(90deg, #FFFFFF 80%, #99E2D0 80%); }
+    65% {background: linear-gradient(90deg, #FFFFFF 80%, #99E2D0 80%); }
+    70% {background: linear-gradient(90deg, #FFFFFF 80%, #99E2D0 80%); }
+    85% {background: linear-gradient(90deg, #FFFFFF 83%, #99E2D0 83%); }
+    90% {background: linear-gradient(90deg, #FFFFFF 85%, #99E2D0 85%); }
+    95% {background: linear-gradient(90deg, #FFFFFF 90%, #99E2D0 90%); }
+    97% {background: linear-gradient(90deg, #FFFFFF 96%, #99E2D0 96%); }
+    100% {background: linear-gradient(90deg, #FFFFFF 100%, #FFFFFF 100%); }
 }
 
 @keyframes check {
@@ -254,13 +263,19 @@
     100% {left: -50px; top: 2px; color: #FFFFFF;}  
 }
 
+.entrees_button:hover .cost {
+    animation: cost 2s, ease-in-out, 2s;
+    animation-fill-mode: forwards;
+    }
+
 @keyframes cost {
     0% {padding-right: 0; top: 0px; padding-left: 0px, color #ffffff00}
-    25%{padding-right: 25px;}
-    50% {padding-right: 50px;}
-    75% {padding-right: 75px;}
-    100% {padding-right: 140px;}
-}
+    25% {padding-right: 140px;}
+    75% {padding-right: 140px;}
+    100% {padding-right: 0px;}
+}    
+
+
 
 .order_button:hover {
     box-shadow: 0 4px 8px 0 #a8a8a8c5;
