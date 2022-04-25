@@ -7,7 +7,7 @@
 
 /*load in animation*/
 .main {
-    animation: fade_in 500ms ease-out;
+    animation: fade_in 650ms ease-out;
 }
 
 @keyframes fade_in {
