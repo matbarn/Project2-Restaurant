@@ -17,29 +17,10 @@ body {
     }
 }
 
-.entrees_button {
+.button_container_entree {
     animation: fade_in_button 600ms ease-out;
 }
 
-@keyframes fade_in_button {
-    0% {
-        transform: translateY(-100%);
-    }
-    
-    50% {
-        transform: translateY(0%);
-    }
-
-
-    80% {
-        transform: translateY(-10%);
-    }
-
-
-    100% {
-        transform: translateY(0);
-    }
-}
 
 
 .header_placing {

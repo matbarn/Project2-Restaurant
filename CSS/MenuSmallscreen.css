@@ -7,34 +7,19 @@
     margin-top: 0px;
 }
 
-/*load in animation*/
 body {
-    animation: fade_in 300ms ease-in;
+    animation: fade_in 400ms ease-in;
 }
 
 @keyframes fade_in {
     0% {
         transform: translateY(-100%);
     }
-    
     100% {
         transform: translateY(0);
     }
 }
 
-.entrees_button {
-    animation: fade_in_button 500ms ease-out;
-}
-
-@keyframes fade_in_button {
-    0% {
-        transform: translateY(-100%);
-    }
-    
-    100% {
-        transform: translateY(0);
-    }
-}
 
 
 

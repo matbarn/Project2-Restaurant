@@ -5,6 +5,22 @@
     margin-left: 0px;
     margin-right: 0px;
 }
+
+/*load in animation*/
+.main {
+    animation: fade_in 500ms ease-out;
+}
+
+@keyframes fade_in {
+    0% {
+        transform: translateY(-100%) ;
+    }
+    100% {
+        transform: translateY(0) ;
+    }
+}
+
+
 .logo {
     padding-left: 20px;
     width:200px;
