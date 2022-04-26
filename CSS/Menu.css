@@ -4,6 +4,7 @@
     font-family: 'Raleway', sans-serif;
 }
 
+/*load in animation*/
 body {
     animation: fade_in 400ms ease-in;
 }
