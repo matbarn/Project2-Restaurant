@@ -186,8 +186,6 @@ body {
     box-shadow: 4px 6px 7px 0 #e7e7e7c5;
     cursor: pointer;
     background: rgb(255,255,255);
-    /*background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 78%, rgba(153,226,208,1) 78%);*/
 }
 
 .entrees_button:hover {
