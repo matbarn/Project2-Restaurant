@@ -21,6 +21,28 @@ body {
     }
 }
 
+/*load timer*/
+.timer {
+    border: 16px solid #000; 
+    border-radius: 50%;
+    border-top: 16px solid #FF79DA;
+    width: 120px;
+    height: 120px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    z-index: 1;
+    animation: spin 400ms;
+    animation: spin 1s linear ;
+    transform: scale(0);
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); scale: 100%; }
+    100% { transform: rotate(360deg); scalex: 0%; }
+    
+}
 
 
 
