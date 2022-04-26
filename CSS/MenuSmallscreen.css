@@ -248,6 +248,13 @@ height: 32px;
     font-weight: bold;
 }
 
+.entrees_button:hover .button_dish {
+    text-overflow: ellipsis;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 200px;
+}
 
 
 .discript_cost {
@@ -281,7 +288,7 @@ height: 32px;
     display: inline-block;
     white-space: nowrap;
     overflow: hidden;
-    width: 120px;
+    width: 128px;
 }
 
 
@@ -289,7 +296,7 @@ height: 32px;
     display: flex;
     justify-content: center;
     background-color: #f2f2f2;
-    height: 120px;
+    height: 160px;
 }
 
 .order_button {
