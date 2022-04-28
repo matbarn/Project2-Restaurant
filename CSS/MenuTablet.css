@@ -39,8 +39,8 @@ body {
 }
 
 @keyframes spin {
-    0% { transform: rotate(0deg); scale: 100%; }
-    100% { transform: rotate(360deg); scalex: 0%; }
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
     
 }
 
@@ -298,7 +298,7 @@ body {
 }
 
 @keyframes check {
-    0% {left: 10px; top: 2px; padding-left: 0px, color #ffffff00}
+    0% {left: 10px; top: 2px; padding-left: 0px; color: #ffffff00}
     25%{color: #ffffff00;}
     50% {padding-left: 5px;}
     100% {left: -50px; top: 2px; color: #FFFFFF;}  
@@ -310,9 +310,9 @@ body {
     }
 
 @keyframes cost {
-    0% {padding-right: 0; top: 0px; padding-left: 0px, color #ffffff00}
-    25% {padding-right: 140px;}
-    75% {padding-right: 140px;}
+    0% {padding-right: 0; top: 0px; padding-left: 0px; color: #ffffff00}
+    25% {padding-right: 255px;}
+    75% {padding-right: 255px;}
     100% {padding-right: 0px;}
 }    
 
