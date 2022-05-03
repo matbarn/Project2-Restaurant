@@ -279,13 +279,13 @@ main {
 }
 
 @keyframes heart {
-    0%{left: 120px; top: 0px; color: #ff79d900;}
-    100%{left: 0px; top: 0px;color: #FF79DA;}
+    0%{color: #ff79d900;}
+    100%{color: #FF79DA;}
 }
 
 @keyframes heart2 {
-    0%{left: 120px; top: 0px; color: #000;}
-    100%{left: 0px; top: 0px;color: #00000000;}
+    0%{color: #000;}
+    100%{color: #00000000;}
 }
 
 
